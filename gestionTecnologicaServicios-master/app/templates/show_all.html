@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sumar Numeros</title>
+</head>
+<body>
+    <form action="{{ url_for('send') }}" method="POST">
+        <h3>Sumar Numeros</h3>
+        Num1<br><input type="text" name="num1" id="num1"/></br>
+     	Num2<br><input type="text" name="num2" id="num2"/></br>
+        <input type="submit" name="action" value="+"/><br>
+        <input type="submit" name="action" value="-"/><br>
+        <input type="submit" name="action" value="*"/><br>
+        <input type="submit" name="action" value="/"/><br>
+    </form>
+<p>This is the processed string: {{ string_variable }} </p>
+</body>
+</html>
+

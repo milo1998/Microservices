@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sumar Numeros</title>
+</head>
+<body>
+<form method="POST" action="/update_addr">
+   <h3>Num2</h3>
+        <input type="hidden" name="id" value="{{ address.num1 }}"/>
+        Num1<br>
+        <input type="text" name="nm" value="{{ address.num1 }}"/>
+        <br/>
+        Suma<br>
+        <textarea name="suma">{{ address.suma }}</textarea><br>
+        City<br>
+        <input type="text" name="city" value="{{ address.city}}"/><br>
+        Pincode<br>
+        <input type="text" name="pin" value="{{ address.pin }}"/><br>
+        <input type="submit" value="submit"/><br>
+</form>
+</body>
+</html>
